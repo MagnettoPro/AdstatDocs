@@ -1,2 +1,1 @@
-- [Read Me](README)
-- [Example Second Page](second-page)
+- [Документация по API Adstat.pro](index)
