@@ -1,1 +1,1 @@
--- [Документация по API Adstat.pro](index)
+- [Документация по API Adstat.pro](index)
