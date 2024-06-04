@@ -1,10 +1,10 @@
-### Справка по API Adstat.pro
-
-1. Swagger-схема для интеграции
-https://client.adstat.pro/api/docs
-
-2. OpenApi 
-https://client.adstat.pro/api/openapi.json
-
-3. Описание процесса интеграции
-
+# Параметры подключения
+## API URL для запросов
+API_URL_API = `https://client.adstat.pro/api/`
+```http
+https://client.adstat.pro/api/
+```
+## Формирование запроса на стороне пользователя
+Для того чтобы сформировать запрос к определенному ресурсу API, необходимо предоставить информацию в заголовках запроса, позволяющую идентифицировать пользователя. Список обязательных параметров: <br>
+`Authorization: Bearer <access_token>` <br>
+Как получить `Bearer-token` описано в разделе [Авторизация](authorization.md)  
