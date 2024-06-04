@@ -1,7 +1,7 @@
 # Параметры подключения
 ## API URL для запросов
 API_URL_API = `https://client.adstat.pro/api/`
-```http
+```copy
 https://client.adstat.pro/api/
 ```
 ## Формирование запроса на стороне пользователя
