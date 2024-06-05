@@ -1,10 +1,13 @@
 # Параметры подключения
-## API URL для запросов
-API_URL_API = `https://client.adstat.pro/api/`
-```copy
-https://client.adstat.pro/api/
-```
+
 ## Формирование запроса на стороне пользователя
+Все запросы к Adstat.pro API выполняются через HTTPS и должны быть представлены в слудующей форме: `https://client.adstat.pro/api/METHOD_NAME`. Например вот так:
+```copy
+https://client.adstat.pro/api/v2/login/
+```
+
+## Авторизация
 Для того чтобы сформировать запрос к определенному ресурсу API, необходимо предоставить информацию в заголовках запроса, позволяющую идентифицировать пользователя. Список обязательных параметров: <br>
-`Authorization: Bearer <access_token>` <br>
++ В <b>HTTP</b> запросах :`Authorization: Bearer <access_token>` <br>
+
 Как получить `Bearer-token` описано в разделе [Авторизация](authorization.md)  
