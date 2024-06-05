@@ -38,6 +38,11 @@ __Пример успешного ответа:__
 
 _GET_ `v2/access-token`
 
+Пример использования:
+```copy
+https://client.adstat.pro/api/v2/access-token
+```
+
 __Параметры__
 
 В заголовке HTTP запроса необходимо передать `<refresh_token>` в формате:
