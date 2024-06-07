@@ -7,3 +7,5 @@
     - [Авторизация](authorization.md)
     - [Балансы](balances.md)
     - [Статистика](statistics.md)
+    - [Кабинеты](cabinets.md)
+    - [Кампании](campaigns.md)
