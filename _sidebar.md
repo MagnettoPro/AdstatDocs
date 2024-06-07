@@ -6,3 +6,4 @@
 
     - [Авторизация](authorization.md)
     - [Балансы](balances.md)
+    - [Статистика](statistics.md)
