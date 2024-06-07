@@ -2,7 +2,7 @@
 
 ## <span id="advertisements">Метод получения кампаний</span>
 
-:::info
+
 _GET_ `v2/advertisement/?show_deleted=false&period=today&offset=0&limit=50&advertisement_titles=&campaign_names=`
 
 Пример использования:
@@ -83,4 +83,4 @@ __Описание параметров успешного ответа:__
 | spent             | Число              | Сумма потраченных средств.                                                |
 | clicks            | Число              | Количество кликов по объявлению.                                          |
 
-:::
+
