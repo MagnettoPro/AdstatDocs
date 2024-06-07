@@ -9,3 +9,4 @@
     - [Статистика](statistics.md)
     - [Кабинеты](cabinets.md)
     - [Кампании](campaigns.md)
+    - [Объявления](advertisements.md)
